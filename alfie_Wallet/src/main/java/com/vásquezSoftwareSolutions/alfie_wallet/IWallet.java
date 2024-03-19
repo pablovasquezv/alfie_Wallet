@@ -13,7 +13,7 @@ public interface IWallet {
 
     void despositar(double cantidad);
 
-    boolean retira(double cantidad);
+    boolean retirar(double cantidad);
 
     boolean convetirMoneda(double cantida, String desdeMoneda, String aMoneda);
 }

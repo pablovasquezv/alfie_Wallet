@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Clase: Usuario
  */
-public class AlfieWallet {
+public class AlfieWallet implements IWallet{
     //Atributos
     private double saldo;
 
@@ -23,5 +23,25 @@ public class AlfieWallet {
     public AlfieWallet(double saldo, List<String> transacciones) {
         this.saldo = saldo;
         this.transacciones = transacciones;
+    }
+
+    @Override
+    public double obtenerSaldo() {
+        return 0;
+    }
+
+    @Override
+    public void desposita(double cantidad) {
+
+    }
+
+    @Override
+    public boolean retira(double cantidad) {
+        return false;
+    }
+
+    @Override
+    public boolean convetirMoneda(double cantida, String desdeMoneda, String aMoneda) {
+        return false;
     }
 }

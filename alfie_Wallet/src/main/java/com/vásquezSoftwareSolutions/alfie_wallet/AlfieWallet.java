@@ -39,6 +39,9 @@ public class AlfieWallet implements IWallet {
 
     @Override
     public void despositar(double cantidad) {
+        saldo += cantidad;
+        System.out.println("Se ha depositado: " + cantidad+ " de dinero en la cuenta!");
+        System.out.println("El saldo actual es: " +saldo);
 
     }
 

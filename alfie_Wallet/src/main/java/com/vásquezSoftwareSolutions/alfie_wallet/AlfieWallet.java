@@ -9,14 +9,21 @@ import java.util.List;
 /**
  * Clase: Usuario
  */
-public class AlfieWallet implements IWallet{
+public class AlfieWallet implements IWallet {
     //Atributos
     private double saldo;
 
     private List<String> transacciones;
 
     /**
+     * Constructor Vacío
+     */
+    public AlfieWallet() {
+    }
+
+    /**
      * Constructor con parámetros
+     *
      * @param saldo
      * @param transacciones
      */
@@ -36,7 +43,7 @@ public class AlfieWallet implements IWallet{
     }
 
     @Override
-    public boolean retira(double cantidad) {
+    public boolean retirar(double cantidad) {
         return false;
     }
 

@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Clase: Usuario
  */
-public class AlfieWallet implements IWallet{
+public class AlfieWallet implements IWallet {
     //Atributos
     private double saldo;
 
@@ -17,6 +17,7 @@ public class AlfieWallet implements IWallet{
 
     /**
      * Constructor con parámetros
+     *
      * @param saldo
      * @param transacciones
      */
@@ -32,7 +33,9 @@ public class AlfieWallet implements IWallet{
 
     @Override
     public void despositar(double cantidad) {
-
+        saldo += cantidad;
+        System.out.println("Se ha depositado " + cantidad + " de dinero en la cuenta");
+        System.out.println("El saldo actual es: " + saldo);
     }
 
     @Override

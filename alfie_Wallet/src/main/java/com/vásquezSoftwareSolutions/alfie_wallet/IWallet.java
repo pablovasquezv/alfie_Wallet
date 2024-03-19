@@ -8,7 +8,7 @@ package com.vásquezSoftwareSolutions.alfie_wallet;
  * Interface: IWallet
  */
 public interface IWallet {
-    //Atributos
+    //Métodos
     double obtenerSaldo();
 
     void despositar(double cantidad);

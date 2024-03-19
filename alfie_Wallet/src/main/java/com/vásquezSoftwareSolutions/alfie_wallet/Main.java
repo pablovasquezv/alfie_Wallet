@@ -9,12 +9,20 @@ package com.vásquezSoftwareSolutions.alfie_wallet;
  *
  * @author Pablo
  */
-public class Main {
 
+/**
+ * Clase: Main
+ */
+public class Main {
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         //Creacion de instancias
         AlfieWallet wallet = new AlfieWallet();
         Usuario usuario1= new Usuario(1,"Juan", wallet);
         usuario1.getWallet().despositar(4000.0);
+        usuario1.getWallet().retirar(39900.0);
     }
 }

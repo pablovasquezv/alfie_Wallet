@@ -14,4 +14,14 @@ public class AlfieWallet {
     private double saldo;
 
     private List<String> transacciones;
+
+    /**
+     * Constructor con parámetros
+     * @param saldo
+     * @param transacciones
+     */
+    public AlfieWallet(double saldo, List<String> transacciones) {
+        this.saldo = saldo;
+        this.transacciones = transacciones;
+    }
 }

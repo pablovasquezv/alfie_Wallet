@@ -11,7 +11,7 @@ public interface IWallet {
     //Atributos
     double obtenerSaldo();
 
-    void desposita(double cantidad);
+    void despositar(double cantidad);
 
     boolean retira(double cantidad);
 

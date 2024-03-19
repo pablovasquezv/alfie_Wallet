@@ -15,5 +15,5 @@ public interface IWallet {
 
     boolean retirar(double cantidad);
 
-    boolean convetirMoneda(double cantida, String desdeMoneda, String aMoneda);
+    boolean convetirMoneda(double cantidad, String desdeMoneda, String aMoneda);
 }

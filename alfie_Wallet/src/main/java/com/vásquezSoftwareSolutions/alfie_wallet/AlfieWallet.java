@@ -59,7 +59,7 @@ public class AlfieWallet implements IWallet {
     }
 
     @Override
-    public boolean convetirMoneda(double cantida, String desdeMoneda, String aMoneda) {
+    public boolean convetirMoneda(double cantidad, String desdeMoneda, String aMoneda) {
         return false;
     }
 }

@@ -16,6 +16,12 @@ public class AlfieWallet implements IWallet {
     private List<String> transacciones;
 
     /**
+     * Constructor Vacío
+     */
+    public AlfieWallet() {
+    }
+
+    /**
      * Constructor con parámetros
      *
      * @param saldo

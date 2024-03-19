@@ -12,6 +12,9 @@ package com.vásquezSoftwareSolutions.alfie_wallet;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        //Creacion de instancias
+        AlfieWallet wallet = new AlfieWallet();
+        Usuario usuario1= new Usuario(1,"Juan", wallet);
+        usuario1.getWallet().despositar(4000.0);
     }
 }

@@ -40,14 +40,22 @@ public class AlfieWallet implements IWallet {
     @Override
     public void despositar(double cantidad) {
         saldo += cantidad;
-        System.out.println("Se ha depositado: " + cantidad+ " de dinero en la cuenta!");
-        System.out.println("El saldo actual es: " +saldo);
+        System.out.println("Se ha depositado: " + cantidad + " de dinero en la cuenta!");
+        System.out.println("El saldo actual es: " + saldo);
 
     }
 
     @Override
     public boolean retirar(double cantidad) {
-        return false;
+        if (cantidad <= saldo) {
+            saldo -= cantidad;
+            System.out.println("Se ha retirado la cantidad " + cantidad + " de dinero de la cuenta!");
+            System.out.println("El saldo actual es: " + saldo);
+            return true;
+        } else {
+            System.out.println("Saldo insuficiente para realizar el retiro");
+            return false;
+        }
     }
 
     @Override

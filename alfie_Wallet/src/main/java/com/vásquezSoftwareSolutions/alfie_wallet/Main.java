@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 
-package com.mycompany.alfie_wallet;
+package com.vásquezSoftwareSolutions.alfie_wallet;
 
 /**
  *

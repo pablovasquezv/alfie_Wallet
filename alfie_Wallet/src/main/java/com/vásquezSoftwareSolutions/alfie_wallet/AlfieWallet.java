@@ -45,7 +45,7 @@ public class AlfieWallet implements IWallet {
     }
 
     @Override
-    public boolean retira(double cantidad) {
+    public boolean retirar(double cantidad) {
         return false;
     }
 

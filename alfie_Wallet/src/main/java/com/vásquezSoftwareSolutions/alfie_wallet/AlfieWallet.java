@@ -31,7 +31,7 @@ public class AlfieWallet implements IWallet{
     }
 
     @Override
-    public void desposita(double cantidad) {
+    public void despositar(double cantidad) {
 
     }
 

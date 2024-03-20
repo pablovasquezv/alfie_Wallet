@@ -33,6 +33,15 @@ public class Usuario {
     }
 
     /**
+     * Constructor con parámetros
+     *
+     * @param wallet
+     */
+    public Usuario(AlfieWallet wallet) {
+        this.wallet = wallet;
+    }
+
+    /**
      * @return id
      */
     public int getId() {

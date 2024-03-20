@@ -32,9 +32,45 @@ public class AlfieWallet implements IWallet {
         this.transacciones = transacciones;
     }
 
+    /**
+     *
+     * @return saldo
+     */
+    public double getSaldo() {
+        return saldo;
+    }
+
+    /**
+     *
+     * @param saldo
+     */
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    /**
+     *
+     * @return transacciones
+     */
+    public List<String> getTransacciones() {
+        return transacciones;
+    }
+
+    /**
+     *
+     * @param transacciones
+     */
+    public void setTransacciones(List<String> transacciones) {
+        this.transacciones = transacciones;
+    }
+
+    /**
+     *
+     * @return saldo
+     */
     @Override
     public double obtenerSaldo() {
-        return 0;
+        return saldo;
     }
 
     @Override
